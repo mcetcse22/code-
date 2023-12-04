@@ -1,0 +1,12 @@
+public class NaandGate {
+    public static void main(String args[]) {
+        int a[] = {1, 1, 0, 1, 0};
+        int b[] = {1, 0, 1, 0, 0};
+        int i, ans;
+
+        for (i = 0; i < 5; i++) {
+            ans = (a[i] == 1 && b[i] == 1) ? 0 : 1;
+            System.out.println("\n NAND=" + a[i] + " NAND " + b[i] + " = " + ans);
+        }
+    }
+}
