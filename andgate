@@ -1,0 +1,12 @@
+public class AndGate {
+    public static void main(String args[]) {
+        int a[] = {1, 1, 0, 1, 0};
+        int b[] = {1, 0, 1, 0, 1};
+        int i, orAns = 0;
+
+        for (i = 0; i < 5; i++) {
+            orAns = a[i] + b[i] > 0 ? 1 : 0;
+            System.out.println("\n AND=" + a[i] + " AND " + b[i] + " = " + orAns);
+        }
+    }
+}
